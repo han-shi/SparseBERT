@@ -26,5 +26,10 @@ An illustration of the architecture taken from the [Transformer paper](https://a
  
 ## Quick Start Guide
  
-Our main difference is [run_pretraining.py] and [modeling.py].
+Our main difference is `run_pretraining.py` and `modeling.py`.
 For quick start guide, you can refer to NVIDIA's repository.
+
+To run on a single node 8 x V100 32G cards, from within the container, you can use the following script to run pre-training.  
+`bash scripts/run_pretraining.sh`
+
+The default hyperparameters are set to run on 8x V100 32G cards.
