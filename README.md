@@ -1,4 +1,4 @@
-# SparseBERT For PyTorch
+# SparseBERT
 
 This repository provides a script and recipe to search the BERT model with sparse attention mask for PyTorch to balance the performance and efficiency.
 Our implementation is an further version of the [NVIDIA implementation](https://github.com/NVIDIA/DeepLearningExamples/tree/master/PyTorch/LanguageModeling/BERT), which leverages mixed precision arithmetic and Tensor Cores on Volta V100 and Ampere A100 GPUs for faster training times while maintaining target accuracy.
