@@ -42,14 +42,14 @@ The default hyperparameters are set to run on 8x V100 32G cards.
 |LogSparse [3] | 89.8 | 77.9/78.2 | 85.9 | 84.6 | 92.0 | 58.5 | 83.2 | 82.0 | 58.8 | 77.9 |
 |BigBird [4]   | 93.2 | 80.2/80.1 | 86.4 | 87.6 | 91.6 | 54.3 | 84.7 | 84.1 | 66.0 | 79.4 |
 |Star   [5]   | 96.1 | 79.1/79.0 | 86.2 | 86.4 | 91.2 | 59.6 | 84.7 | 83.9 | 60.3 | 78.9 |
-|DAM<sub>u</sub>(<img src="https://render.githubusercontent.com/render/math?math=\lambda=10^{-4}">)   | 78.9 | 82.2/82.6 | 87.3 | 89.7 | 92.4 | 57.3 | 86.5 | 89.2 | 70.8 | 82.0|
-|DAM<sub>u</sub>(<img src="https://render.githubusercontent.com/render/math?math=\lambda=10^{-3}">)   | 79.2 | 82.2/82.4 | 87.1 | 89.5 | 92.3 | 57.2 | 86.2 | 89.1 | 67.9 | 81.6 |
-|DAM<sub>u</sub>(<img src="https://render.githubusercontent.com/render/math?math=\lambda=10^{-2}">)   | 79.8 | 81.7/82.3 | 86.8 | 89.4 | 92.1 | 57.2 | 86.1 | 89.0 | 67.1 | 81.3 |
-|DAM<sub>u</sub>(<img src="https://render.githubusercontent.com/render/math?math=\lambda=10^{-1}">)   | 85.8 | 81.4/82.2 | 86.5 | 89.1 | 92.1 | 56.6 | 84.4 | 88.3 | 66.8 | 80.8 |
-|DAM<sub>s</sub>(<img src="https://render.githubusercontent.com/render/math?math=\lambda=10^{-4}">)   | 91.2 | 81.7/81.7 | 87.0 | 88.3 | 92.5 | 59.4 | 86.7 | 88.4 | 63.2 | 80.9 |
-|DAM<sub>s</sub>(<img src="https://render.githubusercontent.com/render/math?math=\lambda=10^{-3}">)   | 91.6 | 81.0/81.2 | 86.9 | 88.0 | 92.4 | 58.6 | 86.2 | 85.7 | 62.8 | 80.3 |
-|DAM<sub>s</sub>(<img src="https://render.githubusercontent.com/render/math?math=\lambda=10^{-2}">)   | 91.7 | 81.1/80.9 | 86.9 | 87.9 | 92.3 | 57.9 | 84.8 | 85.4 | 61.0 | 79.8 |
-|DAM<sub>s</sub>(<img src="https://render.githubusercontent.com/render/math?math=\lambda=10^{-1}">)   | 93.5 | 80.9/81.0 | 86.7 | 87.7 | 92.2 | 57.7 | 84.8 | 85.2 | 59.9 | 79.6 |
+|DAM<sub>u</sub> (<img src="https://render.githubusercontent.com/render/math?math=\lambda=10^{-4}">)   | 78.9 | 82.2/82.6 | 87.3 | 89.7 | 92.4 | 57.3 | 86.5 | 89.2 | 70.8 | 82.0|
+|DAM<sub>u</sub> (<img src="https://render.githubusercontent.com/render/math?math=\lambda=10^{-3}">)   | 79.2 | 82.2/82.4 | 87.1 | 89.5 | 92.3 | 57.2 | 86.2 | 89.1 | 67.9 | 81.6 |
+|DAM<sub>u</sub> (<img src="https://render.githubusercontent.com/render/math?math=\lambda=10^{-2}">)   | 79.8 | 81.7/82.3 | 86.8 | 89.4 | 92.1 | 57.2 | 86.1 | 89.0 | 67.1 | 81.3 |
+|DAM<sub>u</sub> (<img src="https://render.githubusercontent.com/render/math?math=\lambda=10^{-1}">)   | 85.8 | 81.4/82.2 | 86.5 | 89.1 | 92.1 | 56.6 | 84.4 | 88.3 | 66.8 | 80.8 |
+|DAM<sub>s</sub> (<img src="https://render.githubusercontent.com/render/math?math=\lambda=10^{-4}">)   | 91.2 | 81.7/81.7 | 87.0 | 88.3 | 92.5 | 59.4 | 86.7 | 88.4 | 63.2 | 80.9 |
+|DAM<sub>s</sub> (<img src="https://render.githubusercontent.com/render/math?math=\lambda=10^{-3}">)   | 91.6 | 81.0/81.2 | 86.9 | 88.0 | 92.4 | 58.6 | 86.2 | 85.7 | 62.8 | 80.3 |
+|DAM<sub>s</sub> (<img src="https://render.githubusercontent.com/render/math?math=\lambda=10^{-2}">)   | 91.7 | 81.1/80.9 | 86.9 | 87.9 | 92.3 | 57.9 | 84.8 | 85.4 | 61.0 | 79.8 |
+|DAM<sub>s</sub> (<img src="https://render.githubusercontent.com/render/math?math=\lambda=10^{-1}">)   | 93.5 | 80.9/81.0 | 86.7 | 87.7 | 92.2 | 57.7 | 84.8 | 85.2 | 59.9 | 79.6 |
 
 [1] [Generating Long Sequences with Sparse Transformers](https://arxiv.org/pdf/1904.10509.pdf)  
 [2] [Longformer: The Long-Document Transformer](https://arxiv.org/pdf/2004.05150.pdf)  
